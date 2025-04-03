@@ -1,0 +1,23 @@
+h1{
+background-color: blue;
+color: rgb(179, 184, 188);
+margin: 30px;
+padding: 25px;
+display: inline-block;
+
+}
+
+a{
+    background-color: aquamarine;
+    color: black;
+    margin: 25px;
+    padding: 15px;
+    display: flexbox;
+    
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+    

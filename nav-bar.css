@@ -1,0 +1,28 @@
+.nav-bar{
+    text-decoration: none;
+    padding: 10PX;
+    background: rgb(31, 8, 106);
+    color: rgb(253, 252, 252);
+
+}
+nav{
+display: flex;
+justify-content: space-around;
+padding: 25px;
+background: rgb(83, 126, 228);
+}
+@media (max-width: 300px) {
+    nav{
+        background: rgb(39, 177, 175);
+        flex-direction: column;
+    }
+}
+.nav-bar:hover{
+    background-color: rgb(169, 89, 238);
+}
+.nav-bar{
+    margin: 20px; ;
+}
+body{
+    background: rgb(116, 200, 231);
+}

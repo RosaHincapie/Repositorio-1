@@ -1,0 +1,38 @@
+.pagina{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(65, 65, 208);
+    color: aliceblue;
+    display: inline-block;
+    font-size: xx-large;
+
+}
+
+
+
+div{
+    
+  
+    display: block;
+}
+a{
+    text-decoration: none;
+    background: rgb(103, 167, 244);
+    color: rgb(23, 25, 25);
+
+
+}
+
+
+body{
+  background: rgb(123, 135, 204);  
+}
+.pagina:hover{
+    background: rgb(41, 109, 109);
+}
+.pinocho{
+    display: flex;
+}
+
+

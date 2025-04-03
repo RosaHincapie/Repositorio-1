@@ -1,0 +1,11 @@
+button{
+    background-color: rgb(0, 255, 55);
+    color: black;
+    margin: 60px;
+    padding: 50px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: blue;
+    color: azure;
+}

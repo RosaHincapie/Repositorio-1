@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+ <body>
+    <h1 class="h1"><center>Registro de Usuario</center></h1> 
+    
+     <div>
+    <form action="procesar.php" method="post"></form>
+    <label for class="yun">Nombre:</label>
+    <input  class="luz" type="text" id="nombre" placeholder="escriba sus nombres" name="nombre" required>
+    <br><br>
+
+    
+    <label for class="yun">Apellido:</label>
+    <input type="text" id="apellido" placeholder="esciba sus apellidos" name="nombre" required>
+    <br><br>
+
+    <label  for class="yun">E-mail:</label>
+    <input  type="email" id="email" placeholder="e-mail" name="email" required>
+    <br><br>
+
+    <label for class="yun">Edad:</label>
+    <input  type="number" id="edad"  placeholder="edad" name="edad" min="1" max="100">
+    <br><br>
+
+    <label for class="yun">contraseña:</label>
+    <input type="password" id="password"  placeholder="contraseña" name="password" required>
+     <br><br>
+
+     <label for class="yun">Genero:</label>
+     <select name="genero" id="genero"  placeholder="genero"><option value="masculino">masculino</option><option value="femenino">Femenino</option><option value="otro">Otro</option></select>
+     <br><br>
+
+     <label for class="yun">Lugar de residencia</label>
+     <select name="lugar de residencia" id="lugar de residencia"  placeholder="residencia" ><option value="currulao">Currulao</option><option value="apartado">Apartado</option><option value="turbo">Turbo</option><option value="Necocli">Necocli</option><option value="carepa">Carepa</option>/select>
+
+     <label for="direccion">Direccion</label>
+    <input  class="luz" type="text" id="direccion"  placeholder="barrio o vereda" name="direccion" required>
+    <br><br>
+
+     <label for class="yun">Hobbies:</label>
+     <input type="checkbox" name="Hobbies" id="musica" value="musica">
+     <label for class="yun">Musica</label>
+     <input type="checkbox" name="hobbies" id="lectura" value="lectura">
+     <label for class="yun">Lectura</label>
+      <input type="checkbox" name="hobbies" id="deporte" value="deporte">
+      <label for class="yun">Deporte</label>
+      <br><br>
+
+      <Label class="yun">Comentario</Label>
+      <textarea name="comentario" id="comentario"  placeholder="comentario" cols="40" rows="4"></textarea>
+    <br><br>
+
+    <input type="submit"  value="Enviar">
+    <input type="reset" value="Borrar">
+    
+</div>
+
+
+</body>
+</html>

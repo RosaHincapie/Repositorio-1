@@ -1,0 +1,11 @@
+div{
+    background: rgb(107, 151, 41);
+    color: black;
+}
+.boton{
+    text-decoration: none;
+    display: 10px;
+    color: black;
+    margin: 10px;
+    background: white;
+}
